@@ -1,0 +1,243 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>DIA DE LA TIERRA </title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/temasapp5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+<body onLoad="MM_preloadImages('imagenes/dia_2.jpg','imagenes/3r_2.jpg','imagenes/conta_2.jpg','imagenes/climatico_2.jpg','imagenes/10.jpg')">
+<div data-role="page" id="Principal" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"data-back-btn-theme="b">
+<h1>DIA DE LA TIERRA </h1>
+</div>
+<div><center><img src="imagenes/tierra.jpg" width="400"></center>
+</div>
+<div>
+<ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>CELEBRACIÓN DIA DE LA TIERRA </h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>CUIDADO DEL MEDIO AMBIENTE</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>TIPOS DE CONTAMINACIÓN</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>CAMBIO CLIMÁTICO</h2>
+</a>
+</li>
+<li class="ui-first-child ui-last-child">
+<a href="#Pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+<h2>CONTAMINACIÓN EN MI COMUNIDAD</h2>
+</a>
+</li>
+</ul>
+</div>
+<div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<h4>APP 5</h4>
+	<h4>Belen Mendieta Calvario</h4>
+</div>
+</div>
+</div>
+</div>
+
+<div data-role="page" id="Pagina1" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>DÍA DE LA TIERRA</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image3','','imagenes/dia_2.jpg',1)"><img src="imagenes/dia.jpg" width="70%" height="81%" id="Image3"></a></p>
+<p> El <strong>Día de la Tierra</strong> es la jornada mundialmente escogida para celebrar la existencia de nuestra casa; un feliz accidente que nos ha permitido elevarnos desde meras células primigenias hasta llegar a ser los monos pensantes que somos hoy día. Y da igual tu creencia, tu fe o tus valores. El Día Mundial de la Tierra <strong>es un día con 46 años de historia y que pretende perpetuarse por muchos más</strong>.</p>
+  <p>Desde su comienzo en el año 1970 y  con la participación en EE.UU de 20 millones de personas, el Día de la Tierra se ha convertido en una tradición mundial.</p>
+
+<h2>¿Cuándo es el Día de la Tierra?</h2>
+
+Según el refrán “Todos los días es Día de la Tierra”. Pero se celebra popularmente el 22 de abril. 
+<h2>¿Por qué?</h2>
+
+<p>Rumores persistentes  sostienen que el 22 de abril fue elegido porque es el cumpleaños de Vladimir Lenin, el fundador de la Unión Soviética. <br>
+  "El objetivo de Lenin era destruir la propiedad privada, objetivo que también comparten los ambientalistas”  publicó en 2004 la web Capitalism Magazine.
+  <br>
+
+  Kathleen Rogers, presidenta de la organización del Día de la Tierra en Washington y una de las primeras fundadoras en la organización del Día de la Tierra, se burla de la teoría.
+  <br>
+  Según Kathleen, en 1970 el  22 de abril fue elegido como Día de la Tierra en parte, porque ese año cayó en un miércoles, el día de la semana para fomentar una amplia participación en las manifestaciones del medio ambiente celebrada en todo el país.
+  <br>
+  "Todo funcionó a la perfección, porque todo el mundo estaba en el trabajo y al terminar fueron a la manifestación” dijo Kathleen.
+  <br>
+  
+  De hecho, más de 20 millones de personas en los EE.UU. participaron en el primer Día de la Tierra.
+  A partir de entonces, el Día de la Tierra se celebra cada año con la participación de más de mil millones de personas en 180 países de todo el mundo, según los datos de Rogers.
+</p>
+<h2>¿Qué podemos hacer en este día?</h2>
+<p>El Día Mundial de la Tierra <strong>es una jornada especial para realizar una acción orientada al respeto</strong> por nuestro planeta. Esto puede hacerse a nivel particular, por supuesto. Pero la plataforma Día Mundial de la Tierra promueve acciones más grandes.</p>
+<p>La idea es presentar, desde un colectivo, una actividad que muestre el compromiso con la naturaleza. Esto puede surgir desde todo tipo de entidades, sean del carácter que sea</p>
+<h2>Las fotos que eligió la NASA para celebrar el Día de la Tierra</h2>
+<iframe src="http://www.clarin.com/sociedad/eligio-NASA-celebrar-Dia-Tierra_0_1565843497.html" style="width:80%;height:80%;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+
+</div>
+</div>
+</div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+<h4>APP 5</h4>
+	<h4>Belen Mendieta Calvario</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina2" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>CUIDADO DEL MEDIO AMBIENTE</h1>
+</div>
+<div data-role="content" align="center" data-position="fixed">
+<div>
+<h2>REGLA DE LAS 3 'R'</h2>
+<P>- Reducir: Significa evitar comprar y adquirir cosas que pronto se convertirán en basura como embalajes, bolsas de plástico y envases. Para darle un respiro a nuestro planeta tenemos que reducir la cantidad de productos que consumimos. No olvides que para fabricar todo lo que utilizamos necesitamos materias primas como el agua, energía y minerales, que pueden agotarse o tardar muchísimo tiempo en renovarse. Esta "R" es la más importante para evitar seguir produciendo basura.</P>
+<P>- Reutilizar: Es tratar de darle algún uso a los objetos antes de tirarlos a la basura, por ejemplo, forrar las cajas, frascos o latas y usarlas para guardar cosas. Cuantos más objetos volvamos a utilizar menos basura produciremos y menos recursos tendremos que gastar.</P>
+<P> - Reciclar: Se trata de volver a utilizar materiales como el papel o el vidrio, para fabricar nuevos productos parecidos como cuadernos, botellas, etc. Del papel y cartón, se puede recuperar cerca del 40% a través del reciclaje, si no están revueltos con basura que los moje o manche..</P>
+
+<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image4','','imagenes/3r_2.jpg',1)"><img src="imagenes/3r.jpg" width="90%" height="341" id="Image4"></a></p>
+<p><strong>Los beneficios que nos dan las 3 R</strong></p>
+<p>Dentro de los beneficios ambientales encontramos la disminución de residuos sólidos, el incremento de la calidad del suelo, reducción de la emisión de gases de efecto invernadero; mejorando así la calidad de aire y ayudando a que la situación del clima se estabilice.</p>
+<p>También hay beneficios económicos, ya que los residuos sólidos pueden ser vendidos a empresas que los reciclan, ahorramos en costos en el hogar utilizando materiales reciclados. Se pueden crear diferentes artículos hechos de material reciclado como camas, sofás, sillas, mesas, lámparas, floreros, entre otros. En algunos casos, el arte de reciclar puede llegar a ser un negocio, pues se crean artículos que se venden. Por último, tenemos el beneficio social, ya que poco a poco se crea una cultura de responsabilidad con el ambiente.</p>
+<p>Con todo esta información que tenemos ahora, antes de comprar un producto en el mercado debemos hacernos varias preguntas: ¿realmente lo necesito?, ¿este producto fue elaborado de manera que no contamine o de manera sustentable?, ¿durará mucho tiempo?, ¿contaminará al ser desechado?, ¿bajo qué circunstancias fue fabricado?, ¿existe un producto similar pero con menos empaques? La idea es que cada uno de nosotros hagamos un consumo razonado, no comprar por comprar sin mirar a quién o a qué podamos dañar.</p>
+<p> </p>
+</div>
+</div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+<h4>APP 5</h4>
+	<h4>Belen Mendieta Calvario</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina3" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>TIPOS DE CONTAMINACIÓN</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<P>La contaminación es cualquier tipo de <strong>daño permanente que se haga al medio ambiente</strong>. No sólo existe la contaminación ambiental, también existen otros tipos de contaminación como del suelo y del agua. </P>
+<p><strong>Los tipos de contaminación más importantes son los que afectan a los recursos naturales básicos: el aire, los suelos y el agua</strong>. Existen diferentes tipos de contaminación que dependen de determinados factores y que afectan distintamente a cada ambiente.</p>
+<ul>
+  <li><strong>Contaminación del agua</strong>: cuando se incorpora al agua sustancias extrañas como microorganismos, productos químicos, residuos industriales o aguas residuales. Estos contaminantes hacen que el agua no sea beneficiosa para el ser humano ni para la vida vegetal y animal.</li>
+  <li><strong>Contaminación del aire:</strong> se denomina a la adición de elementos tóxicos como el CO. Este tipo de contaminación afecta al bienestar de las personas, animales y plantas de forma negativa.</li>
+  <li><strong>Contaminación del suelo</strong>: cuando se introduce material extraño y dañino en las capas terrestres. Estos contaminantes producen un desequilibrio físico, químico y biológico en el suelo.</li>
+</ul>
+<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image5','','imagenes/conta_2.jpg',1)"><img src="imagenes/conta.jpg" width="80%" height="80%" id="Image5"></a></p>
+<p>Otras perturbaciones medioambientales graves relacionadas con los fenómenos de contaminación son los escapes radiactivos, el smog, la lluvia ácida,los gases del efecto invernadero las mareas negras y  la destrucción de la capa de ozono.</p>
+<P>   </P>
+</div>
+</div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+<h4>APP 5</h4>
+	<h4>Belen Mendieta Calvario</h4>
+</div>
+</div>
+
+<div data-role="page" id="Pagina4" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>CAMBIO CLIMATICO</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<P>El <strong>cambio climático</strong> es la mayor amenaza medioambiental a la que se enfrenta la humanidad. Las emisiones constantes y desproporcionadas de gases por parte de los países industrializados, entre otros abusos de los recursos naturales, están provocando graves modificaciones en el clima a nivel global. Sus consecuencias afectan sobre todo a los países en vías de desarrollo y se traducen en inundaciones, sequía, huracanes y todo tipo de desastres naturales que dejan a la población desvalida y sin medios para subsistir.</P>
+<P><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image6','','imagenes/climatico_2.jpg',1)"><img src="imagenes/climatico.jpg" width="90%" height="90%" id="Image6"></a></P>
+<P>&nbsp;</P>
+
+</div>
+</div>
+<div data-role="main" class="ui-content">
+<div data-role="collapsible" data-content-theme="false">
+<h1>Causas del cambio climático</h1>
+<div>
+<p><strong>Las variaciones climáticas</strong> han existido desde los orígenes de la Tierra. Nuestra pequeña morada ha asistido durante su larga vida a periodos de glaciaciones, actividad sísmica continuada o fuertes radiaciones solares.</p>
+<p>Sin embargo, hoy en día asistimos a un cambio climático global sin precedentes, donde las causas naturales parecen jugar un papel poco importante. La comunidad científica coincide en que las fluctuaciones del clima son provocadas en gran medida por el hombre. Actividades como <strong>la tala indiscriminada de árboles, el mal uso del agua potable, la sobreexplotación de las tierras</strong> se conjugan para alimentar un fenómeno que no hace sino acrecentarse. De entre todos los factores, la emisión de gases por parte de los países industrializados es probablemente uno de los que más agravan la situación, provocando un calentamiento global mundial que ya acarrea trágicos resultados.</p>
+<p><strong> Consecuencias del cambio climático</strong></p>
+<p>El impacto del cambio climático está ocurriendo aquí y ahora.  Entre sus principales consecuencias observamos:</p>
+<ul>
+  <li>Fusión de los casquetes polares, con el consecuente aumento del nivel del mar</li>
+  <li>Climatología extrema</li>
+  <li>Desaparición de especies de animales y plantas</li>
+  <li>Aumento masivo y desproporcionado de fenómenos naturales como ciclones, huracanes, desbordamientos de ríos, etc.</li>
+  <li>Vulnerabilidad de los países empobrecidos.</li>
+</ul>
+
+<p> </p>
+<br>
+</div>
+</div>
+</div>
+<div data-role="footer" data-theme="a" data-position="fixed">
+<h4>APP 5</h4>
+	<h4>Belen Mendieta Calvario</h4>
+</div>
+</div>
+
+
+<div data-role="page" id="Pagina5" data-add-back-btn="true" data-theme="a">
+<div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+<h1>CONTAMINACIÓN EN MI COMUNIDAD</h1>
+</div>
+<div data-role="content" align="center">
+<div>
+<!-- Start WOWSlider.com -->
+<iframe src="visor/indexwow2.html" style="width:640px;height:160px;max-width:100%;overflow:hidden;border:none;padding:0;margin:0 auto;display:block;" marginheight="0" marginwidth="0"></iframe>
+<!-- End WOWSlider.com -->
+
+<p>En mi comunidad:Colonia Revolución, existe la contaminación visual y la contaminación del suelo.</p>
+<p>La primera ya que existe una banda denominada -CAIFANES- los cuales graffitean las paredes de la colonia.</p>
+<p>La segunda es provocada por vecinos que dejan su basura en las esquinas después de que ya paso el camión recolector de basura, además de arrojar basura en terrenos baldios o simplemente en la calle.</p>
+<p><a href="#" onMouseOut="MM_swapImgRestore()" onMouseOver="MM_swapImage('Image7','','imagenes/10.jpg',1)"><img src="imagenes/16.jpg" width="80%" height="80%" id="Image7"></a></p>
+<p>Las medidas que podemos tomar son sancionar a los autores del delito pintando las paredes afectadas, limpiando la colonia por un tiempo establecido así como multas economicas las cuales servirán para gastos de la colonia (celebraciones, eventos).</p>
+<p> </p>
+</div>
+</div>
+<div data-role="footer" align="center" data-theme="a" data-position="fixed">
+<h4>APP 5</h4>
+	<h4>Belen Mendieta Calvario</h4>
+</div>
+</div>
+
+
+</body>
+</html>
